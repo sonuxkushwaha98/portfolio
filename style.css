@@ -15,7 +15,7 @@
 body{
    
     background-color:var(--website-color);
-    overflow: auto;
+    
 }
 header,nav{
      @media screen {min-width: 655px;
@@ -37,7 +37,7 @@ header,nav{
 a{
     text-decoration: none;
     margin: 30px;
-    color:var(--text-color);
+    color:white;
     position: relative;
     top: 20px;
 }

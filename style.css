@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Salsa&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primary-color:#05125a;
+    --text-color:#ffcc9d;
+    --website-color:rgb(245, 214, 174);
+    --website-color-2:rgb(213 201 177);
+}
+body{
+   
+    background-color:var(--website-color);
+    overflow: auto;
+}
+header,nav{
+     @media screen {min-width: 655px;
+        width: 100%;
+        }
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    position: sticky;
+    top: 0px;
+    z-index: 10;  
+}
+a{
+    text-decoration: none;
+    margin: 30px;
+    color:var(--text-color);
+    position: relative;
+    top: 20px;
+}
+button{
+
+    margin: 30px;
+    width: 80px;
+    position: relative;
+    top: 28px;
+    height: 30px;
+    background-color: #0aebf700;
+    border: 1px solid white;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.logo{ 
+    margin: 0;
+    font-size: 54px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: fixed;
+    left: 30px;
+    top: 0px;
+    color: rgb(54 2 253);
+    padding: 0;
+}
+
+.container{
+    @media screen {min-width: 655px;
+        width: 100%;
+        }
+       
+    margin: 25px;
+    padding: 9px;
+    height: 60vh;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    overflow-y: scroll;
+}
+
+.container2{
+    @media screen {min-width: 655px;
+        width: 100%;
+    }
+    height: 50vh;
+    width: 100%;
+    background-color: var(--website-color-2);
+}
+
+ img,.propic {  
+    
+    height: 300px;
+    width: 200x;
+    border-radius: 10% 25%;
+    object-fit: cover;
+    object-position: top;
+    box-shadow: 0px 0px 10px 2px grey;
+}
+
+.box1{
+    display: flex;
+    gap: 10px 10px;
+}
+
+span{
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+span,p{
+    gap: 35px;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    @media screen {min-width: 655px;
+        width: 100%;
+        }
+        
+    
+    margin: 0px;
+    border: 1px solid black;
+    height: 200px;
+    background-color: black;
+}

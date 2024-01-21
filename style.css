@@ -87,7 +87,26 @@ button{
     width: 100%;
     background-color: var(--website-color-2);
 }
+.b1 {
 
+
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f7e3aa;
+    box-shadow: 10px 10px 10px grey;
+
+}
+
+.b2 {
+
+
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f7e3aa;
+    box-shadow: 10px 10px 10px grey;
+}
  img,.propic {  
     
     height: 300px;

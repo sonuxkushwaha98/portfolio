@@ -41,19 +41,7 @@ a{
     position: relative;
     top: 20px;
 }
-button{
 
-    margin: 30px;
-    width: 80px;
-    position: relative;
-    top: 28px;
-    height: 30px;
-    background-color: #0aebf700;
-    border: 1px solid white;
-    border-radius: 15px;
-    color: rgb(255, 255, 255);
-    cursor: pointer;
-}
 .logo{ 
     margin: 0;
     font-size: 54px;

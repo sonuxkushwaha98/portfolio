@@ -133,6 +133,7 @@ footer{
     margin: 0px;
     border: 1px solid black;
     display: flex;
+    gap: 5px;
     height: 200px;
     background-color: black;
 }
